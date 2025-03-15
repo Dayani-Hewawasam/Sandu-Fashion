@@ -14,7 +14,7 @@ COPY package*.json ./
 COPY ./node_modules ./node_modules
 
 RUN npm install --verbose
-
+ 
 # copy local files to app folder
 COPY . .
 
